@@ -1,0 +1,287 @@
+/*nav*/
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+}
+
+/*start-swiper-story-ss*/
+.nvswiperstory {
+  display: flex;
+  width: 1336px;
+  height: 140px;
+  background-color: green;
+  padding-bottom: 16px;
+}
+/*end-swiper-story-ss*/
+/*start-swiper-banner-sb*/
+.nvswiperbanner {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: darkolivegreen;
+  padding-top: 16px;
+}
+/*end-swiper-banner-sb*/
+/*start-container-logo-cl*/
+
+nav > .nvlogo {
+  width: 1336px;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav > .nvlogo > .logo {
+  width: 82px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+}
+nav > .nvlogo > .logo > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav > .nvlogo > .logo > a > .img {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+nav > .nvlogo > .logo > a > .imgs {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 20px;
+}
+nav > .nvlogo > .logo > a > .img > img {
+  width: 52px;
+  height: 52px;
+  overflow: hidden;
+}
+nav > .nvlogo > .logo > a > .imgs > img {
+  width: 52px;
+  height: 52px;
+  overflow: hidden;
+}
+nav > .nvlogo > .logo > a > p {
+  width: 85px;
+  height: 48px;
+  background-color: darkgray;
+}
+/*end-container-logo-cl*/
+/*start-swiper-offer-timer-sot*/
+nav > .nvswiperoffer {
+  width: 1336px;
+  height: 294px;
+  border-radius: 16px;
+  background-color: #d82f4e;
+}
+/*end-swiper-offer-timer-sot*/
+/*start-container-supermarket-offer-cso*/
+.consupermarket {
+  width: 1336px;
+  height: 110px;
+  border-radius: 16px;
+  background-color: darkgray;
+}
+/*end-container-supermarket-offer-cso*/
+/*start-container-fourbanner-cf1*/
+.confourbanner {
+  width: 1336px;
+  height: 242px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 8px;
+}
+.confourbanner > .fourbanner {
+  width: 322px;
+  height: 242px;
+  border-radius: 16px;
+  background-color: darkorange;
+}
+/*end-container-fourbanner-cf1*/
+/*start-container-category-twoline-cct*/
+.categorytwoline {
+  width: 1336px;
+  height: 456px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.categorytwoline > .title {
+  display: flex;
+  width: 1336px;
+  height: 44px;
+  background-color: grey;
+}
+
+.categorytwoline > .categorytwolinelogo {
+  width: 1336px;
+  height: 396px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  background-color: darkgray;
+}
+.categorytwoline > .categorytwolinelogo > span.category {
+  width: 108px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
+  margin: 0 25px;
+}
+.categorytwoline > .categorytwolinelogo > span.category > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: darkgreen;
+}
+.categorytwoline > .categorytwolinelogo > span.category > span.p {
+  width: 52px;
+  height: 52px;
+  background-color: darkgoldenrod;
+}
+/*start-container-category-twoline-cct*/
+/*start-container-twobanner-ct*/
+.contwobanner {
+  width: 1336px;
+  height: 264px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.contwobanner > .contwobanner1 {
+  width: 660px;
+  height: 264px;
+  border-radius: 16px;
+  background-color: darkcyan;
+}
+/*end-container-twobanner-ct*/
+/*start-swiper-brands-sb2*/
+.nvswiperbrand {
+  width: 1335px;
+  height: 174px;
+  border: 1px solid rgba(169, 169, 169, 0.406);
+  border-radius: 16px;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+.nvswiperbrand > .text {
+  width: 1335px;
+  height: 44px;
+  background-color: darkgreen;
+}
+.nvswiperbrand > .swiperbrand {
+  width: 1335px;
+  height: 110px;
+  background-color: darkgoldenrod;
+}
+/*end-swiper-brands-sb2*/
+/*start-container-fourbox-cf1*/
+.confourbox {
+  width: 1335px;
+  height: 400px;
+  border: 1px solid rgba(169, 169, 169, 0.406);
+  border-radius: 16px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.confourbox > span {
+  height: 400px;
+  width: 1px;
+  background-color: rgba(169, 169, 169, 0.406);
+}
+.confourbox > .confourbox1 {
+  width: 292.75px;
+  height: 400.234px;
+  margin: 8px 17px;
+  padding: 8px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.confourbox > .confourbox1 > .text1 {
+  background-color: darkblue;
+  width: inherit;
+  height: 34px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.confourbox > .confourbox1 > .text2 {
+  background-color: lightgreen;
+  width: inherit;
+  height: 24px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.confourbox > .confourbox1 > .box {
+  background-color: darkgreen;
+  width: 277px;
+  height: 277px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 146px 146px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+}
+.confourbox > .confourbox1 > .box > a.a1,
+a.a2,
+a.a3,
+a.a4 {
+  width: 146px;
+  height: 146px;
+  background-color: darkgoldenrod;
+}
+.confourbox > .confourbox1 > .box > a.a1,
+a.a3 {
+  border-right: 1px solid rgba(169, 169, 169, 0.406);
+}
+.confourbox > .confourbox1 > .box > a.a2,
+a.a1 {
+  border-bottom: 1px solid rgba(169, 169, 169, 0.406);
+}
+.confourbox > .confourbox1 > .text3 {
+  width: inherit;
+  height: 26px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  background-color: darkred;
+}
+/*end-container-fourbox-cf1*/
+/*start-container-digiclub-cd*/
+/*end-container-digiclub-cd*/
+/*start-container-topsell-ct2*/
+/*end-container-topsell-ct2*/
+/*start-container-fourbox-cf2*/
+/*end-container-fourbox-cf2*/
+/*start-container-onebanner-co*/
+/*end-container-onebanner-co*/
+/*start-container-topsale-ct2*/
+/*end-container-topsale-ct2*/
+/*start-container-weblogs-readable-wr*/
+/*end-container-weblogs-readable-wr*/

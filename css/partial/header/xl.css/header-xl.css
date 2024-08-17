@@ -1,0 +1,126 @@
+/* <header> */
+/*start-header-banner-hb*/
+div.headerbanner {
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+div.headerbanner > img {
+  width: 100%;
+}
+/*end-header-banner-hb*/
+/*start-sticky-container-searchbox-scs*/
+.containersearchbox {
+  width: 100%;
+  height: 68px;
+  position: relative;
+  display: flex;
+  padding-right: 118px;
+  justify-content: space-between;
+}
+div.searchbox {
+  width: 100%;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 10px 0px;
+}
+.searchbox .logo img {
+  width: 115px;
+  height: 30px;
+  margin-left: 16px;
+  flex-grow: 1;
+}
+.searchbox .search {
+  width: 1310px;
+  height: 44px;
+  align-items: center;
+}
+.searchbox .search .box {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 44px;
+  background-color: #f0f0f1;
+  border-radius: 8px;
+}
+.searchbox .search .box img {
+  width: 24px;
+  height: 24px;
+  margin: 16px;
+}
+.searchbox .enter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 135px;
+  height: 40px;
+  border-style: solid;
+  border-color: #f0f0f1;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.searchbox .enter .line {
+  width: 2px;
+  height: 12px;
+  background-color: black;
+}
+.searchbox .cartlogo span {
+  display: inline-block;
+  width: 1px;
+  height: 24px;
+  margin: 0 12px;
+  background-color: #f0f0f1;
+}
+/*end-sticky-container-searchbox-scs*/
+/*start-sticky-container-menu-scm*/
+.containermenu {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  direction: rtl;
+  justify-content: space-between;
+  padding-right: 130px;
+  padding-left: 160px;
+  margin-top: 8px;
+  align-items: center;
+  border-bottom: 2px solid #f0f0f1;
+}
+.itemlead a,
+.address a {
+  text-decoration: none;
+  color: #adafb3;
+}
+.itemlead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.itemlead > .itemlead1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.containermenu > .itemlead > span {
+  width: 1px;
+  height: 20px;
+  background-color: #d5d5d8;
+  margin-right: 8px;
+}
+.containermenu > .address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/*end-sticky-container-megamenu-scm*/
+/* </header> */
